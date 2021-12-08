@@ -4,8 +4,6 @@
 
 <interface>
     <function name="keySelected" />
-    <field id="next" type="bool" alwaysNotify="true" />
-    <field id="prev" type="bool" alwaysNotify="true" />
     <field id="mode" type="string" onChange="modeChanged" />
 </interface>
 
