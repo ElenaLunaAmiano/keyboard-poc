@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DynamicPinPadTest" extends="Group" initialFocus="thePinPad" >
+
+<script type="text/brightscript" uri="pkg:/components/dynamicPinPadTest.brs" />
+
+<children>
+    <SimpleLabel translation="[100, 80]" fontUri="pkg:/fonts/regular.ttf" text="DynamicPinPad Use Case - Pin Entry" />
+    <DynamicPinPad id="thePinPad" />
+</children>
+
+</component>

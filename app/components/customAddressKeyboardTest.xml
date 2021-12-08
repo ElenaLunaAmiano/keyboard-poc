@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="CustomAddressKeyboardTest" extends="Group" initialFocus="theKeyboard">
+
+<script type="text/brightscript" uri="pkg:/components/customAddressKeyboardTest.brs" />
+
+<children>
+    <SimpleLabel translation="[109,80]" fontUri="pkg:/fonts/regular.ttf" text="Custom Address Keyboard Test" />
+    <CustomAddressKeyboard id="theKeyboard" fontUri="pkg:/fonts/regular.ttf" translation="[70,280]" />
+</children>
+
+</component>

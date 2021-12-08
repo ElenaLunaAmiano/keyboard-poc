@@ -1,0 +1,36 @@
+{
+    "keyboardWidthFHD": 1630,
+    "keyboardHeightFHD": 268,
+    "keyboardWidthHD": 928,
+    "keyboardHeightHD": 54,
+    "sections": [
+      {
+        "grids": [
+          {
+            "rows": [
+              {
+                "keys": [
+                  { "label": "1" },
+                  { "label": "2" },
+                  { "label": "3" },
+                  { "label": "4" },
+                  { "label": "5" },
+                  { "label": "6" },
+                  { "label": "7" },
+                  { "label": "8" },
+                  { "label": "9" },
+                  { "label": "0" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "autoRepeat": 1,
+                    "strOut": "backspace"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DynamicMiniKeyboardTest" extends="Group" initialFocus="theKeyboard" >
+
+<script type="text/brightscript" uri="pkg:/components/dynamicMiniKeyboardTest.brs" />
+
+<children>
+    <SimpleLabel translation="[100, 50]" fontUri="pkg:/fonts/regular.ttf" text="DynamicMiniKeyboard Use Case - Search Query" />
+    <DynamicMiniKeyboard id="theKeyboard" showUiLanguageChars="true" />
+</children>
+
+</component>

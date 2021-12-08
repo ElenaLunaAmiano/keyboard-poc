@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DynamicKeyboardTest" extends="Group" initialFocus="theKeyboard" >
+
+<script type="text/brightscript" uri="pkg:/components/dynamicKeyboardTest.brs" />
+
+<children>
+    <SimpleLabel translation="[100, 80]" fontUri="pkg:/fonts/regular.ttf" text="DynamicKeyboard Use Case - Email Address Entry" />
+    <DynamicKeyboard id="theKeyboard"/></children>
+
+</component>

@@ -1,0 +1,81 @@
+{
+    "keyboardWidthFHD": 1630,
+    "keyboardHeightFHD": 268,
+    "keyboardWidthHD": 928,
+    "keyboardHeightHD": 84,
+    "sections": [
+      {
+        "grids": [
+          {
+            "modes": "Pin",
+            "gridHeightFHD": 80,
+            "gridHeightHD": 48,
+            "rows": [
+              {
+                "keys": [
+                  {
+                    "label": "1",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "2",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "3",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "4",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "5",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "6",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "7",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "8",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "9",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "label": "0",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  },
+                  {
+                    "icon": "theme:KeyboardDeleteOnBitmap",
+                    "focusIcon": "theme:KeyboardDeleteOffBitmap",
+                    "strOut": "backspace",
+                    "keyWidthFHD":112,
+                    "keyWidthHD":84
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
