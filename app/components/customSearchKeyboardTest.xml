@@ -9,7 +9,7 @@
         <SimpleLabel translation="[109,180]" fontUri="pkg:/fonts/regular.ttf" text="Keyboard Mode" />
         <Group id="SearchContainer">
             <Button translation="[409,180]" id="buttonMode" text = "Keyboard Toggle" minWidth = "240"></Button>
-            <Poster id="line" translation="[409,180]" />
+            <Poster id="line"/>
             <CustomAddressKeyboard id="theKeyboard" translation="[70,280]" />
         </Group>
     </children>

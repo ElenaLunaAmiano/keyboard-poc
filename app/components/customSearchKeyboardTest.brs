@@ -26,24 +26,18 @@ sub init()
 
     m.keyboard.textEditBox.voiceEnabled = true
     m.keyboard.textEditBox.flipVoiceToolTip = true
-    m.keyboard.textEditBox.backgroundUri = "pkg:/images/pixel/pixel_white.png"
+    ' m.keyboard.textEditBox.backgroundUri = "pkg:/images/buttons/generic_outline.png"
+    ' m.keyboard.textEditBox.backgroundUri = "pkg:/images/pixel/pixel_white.png"
     m.keyboard.fontUri = "pkg:/fonts/regular.ttf"
 
-    ' m.line = m.top.findNode("line")
-    ' m.line.uri = "pkg:/images/pixel/pixel_white.png"
-    ' m.line.width = 1692
-    ' m.line.height = 1
-    ' m.line.loadDisplayMode = "noscale"
+    m.line = m.top.findNode("line")
+    m.line.uri = "pkg:/images/pixel/pixel_white.png"
+    m.line.width = 1100
+    m.line.height = 1
+    m.line.translation = [70,320]
 
-    ' m.keyboard.textEditBox.setFocus(true)
-
-    ' m.keyboard.textEditBox
     m.keyboard.keyGrid.visible = true
     m.button.text = "HIDE"
-    ' m.button.setFocus(true)
-    ' m.keyboard.textEditBox.setFocus(false)
-    ' m.keyboard.keyGrid.setFocus(false)
-    ' m.keyboard.setFocus(false)
 
     m.previousFocus = invalid
 end sub
