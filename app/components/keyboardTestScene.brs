@@ -25,20 +25,19 @@ sub addListItem(label as string, component as string)
  end sub
 
  function onKeyEvent(key as String, press as Boolean) as Boolean
-     print "in testList.xml onKeyEvent ";key;" "; press
+    '  print "in testList.xml onKeyEvent ";key;" "; press
      if press then
-         if key = "back"
-         if not (m.CurrentTest = invalid)
-            print "CLEANING UP m.CURRENTTEST"
-        m.top.RemoveChild(m.CurrentTest)
-        m.CurrentTest = invalid
+        if key = "back"
+            if not (m.CurrentTest = invalid)
+                print "CLEANING UP m.CURRENTTEST"
+                m.top.RemoveChild(m.CurrentTest)
+                m.CurrentTest = invalid
 
-        m.list.visible = true
-        m.list.SetFocus(true)
-
+                m.list.visible = true
+                m.list.SetFocus(true)
                 return true
-         end if
-     end if
+            end if
+        end if
      end if
      return false
  end function
