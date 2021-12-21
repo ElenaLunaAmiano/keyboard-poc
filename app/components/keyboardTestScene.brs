@@ -59,7 +59,7 @@ sub addListItem(label as string, component as string)
     addListItem("DynamicPinPad Test",       "DynamicPinPadTest")
     addListItem("DynamicMiniKeyboard Test", "DynamicMiniKeyboardTest")
     addListItem("Custom Address Keyboard Test", "CustomAddressKeyboardTest")
-    addListItem("Custom Pin Keyboard Test", "CustomPinKeyboardTest")
+    addListItem("Custom Search Keyboard Test", "CustomSearchKeyboardTest")
 
     print "TestComponents"; m.testComponents
 

@@ -1,7 +1,7 @@
 function init()
     m.keyboard = m.top.findNode("theKeyboard")
     m.keyboard.domain = "email"
-m.keyboard.textEditBox.voiceEnabled = true
+    m.keyboard.textEditBox.voiceEnabled = true
 
     ' channel is designed for HD coords
     m.screenWidth  = 1280

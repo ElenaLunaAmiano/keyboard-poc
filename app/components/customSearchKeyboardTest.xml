@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="CustomSearchKeyboardTest" extends="Group" initialFocus="theKeyboard">
+
+<script type="text/brightscript" uri="pkg:/components/customSearchKeyboardTest.brs" />
+
+<children>
+    <SimpleLabel translation="[109,80]" fontUri="pkg:/fonts/regular.ttf" text="Custom Search Keyboard Test" />
+    <SimpleLabel translation="[109,180]" fontUri="pkg:/fonts/regular.ttf" text="Keyboard Mode" />
+    <Button translation="[409,180]" id="buttonMode" fontUri="pkg:/fonts/regular.ttf" text = "Keyboard Toggle" showFocusFootprint = "true" minWidth = "240"></Button>
+    <Poster id="line" translation="[409,180]" />
+    <CustomAddressKeyboard id="theKeyboard" fontUri="pkg:/fonts/regular.ttf" translation="[70,280]" />
+</children>
+
+</component>
