@@ -22,7 +22,7 @@ sub init()
     m.enteredText = m.top.findNode("enteredText")
     m.keyboard.observeFieldScoped("text", "textChanged")
 
-    m.keyboard.mode = "AddressLower"
+    m.keyboard.mode = "qwertyLower"
 
     m.keyboard.textEditBox.voiceEnabled = true
     m.keyboard.textEditBox.flipVoiceToolTip = true
@@ -43,6 +43,8 @@ sub init()
 end sub
 
 function onKeyEvent(key as String, press as Boolean) as Boolean
+    if key = "back" then return false
+    
     if key = "OK" AND m.previousFocus = invalid 
         if m.keyboard.keyGrid.isInFocusChain()
             m.previousFocus = m.focusableItems.KEYGRID

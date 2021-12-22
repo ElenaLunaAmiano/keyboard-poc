@@ -1,0 +1,416 @@
+{
+    "keyboardWidthFHD": 1630,
+    "keyboardHeightFHD": 268,
+    "keyboardWidthHD": 1150,
+    "keyboardHeightHD": 184,
+    "sections": [
+      {
+        "grids": [
+          {
+            "modes": "qwertyUpper",
+            "rows": [
+              {
+                "keys": [
+                  { "label": "Q"},
+                  { "label": "W" },
+                  { "label": "E" },
+                  { "label": "R" },
+                  { "label": "T" },
+                  { "label": "Y" },
+                  { "label": "U" },
+                  { "label": "I" },
+                  { "label": "O" },
+                  { "label": "P" }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "A" },
+                  { "label": "S" },
+                  { "label": "D" },
+                  { "label": "F" },
+                  { "label": "G" },
+                  { "label": "H" },
+                  { "label": "J" },
+                  { "label": "K" },
+                  { "label": "L" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "strOut": "backspace"
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "Z" },
+                  { "label": "X" },
+                  { "label": "C" },
+                  { "label": "V" },
+                  { "label": "B" },
+                  { "label": "N" },
+                  { "label": "M" },
+                  { "label": "." },
+                  { "label": "_" },
+                  { "label": "-" }
+                ]
+              },
+              {
+                "keys": [
+                  {
+                    "label": "abc",
+                    "strOut": "UpperLower"
+                  },
+                  {
+                    "label": "123#&%",
+                    "strOut": "NumbersSymbols"
+                  },
+                  { "label": "=" },
+                  { "label": "@" },
+                  { "label": "[" },
+                  { "label": "]" },
+                  { "label": "/" },
+                  { "label": "\\" },
+                  { "label": "{" },
+                  { "label": "}" }
+                ]
+              }
+            ]
+          },
+          {
+            "modes": "qwertyLower",
+            "rows": [
+              {
+                "keys": [
+                  { "label": "q" },
+                  { "label": "w" },
+                  { "label": "e" },
+                  { "label": "r" },
+                  { "label": "t" },
+                  { "label": "y" },
+                  { "label": "u" },
+                  { "label": "i" },
+                  { "label": "o" },
+                  { "label": "p" }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "a" },
+                  { "label": "s" },
+                  { "label": "d" },
+                  { "label": "f" },
+                  { "label": "g" },
+                  { "label": "h" },
+                  { "label": "j" },
+                  { "label": "k" },
+                  { "label": "l" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "strOut": "backspace"
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "z" },
+                  { "label": "x" },
+                  { "label": "c" },
+                  { "label": "v" },
+                  { "label": "b" },
+                  { "label": "n" },
+                  { "label": "m" },
+                  { "label": "." },
+                  { "label": "_" },
+                  { "label": "-" }
+                ]
+              },
+              {
+                "keys": [
+                  {
+                    "label": "ABC",
+                    "strOut": "UpperLower"
+                  },
+                  {
+                    "label": "123#&%",
+                    "strOut": "NumbersSymbols"
+                  },
+                  { "label": "=" },
+                  { "label": "@" },
+                  { "label": "[" },
+                  { "label": "]" },
+                  { "label": "/" },
+                  { "label": "\\" },
+                  { "label": "{" },
+                  { "label": "}" }
+                ]
+              }
+            ]
+          },
+          {
+            "modes": "NumbersSymbols",
+            "rows": [
+              {
+                "keys": [
+                  { "label": "1" },
+                  { "label": "2" },
+                  { "label": "3" },
+                  { "label": "4" },
+                  { "label": "5" },
+                  { "label": "6" },
+                  { "label": "7" },
+                  { "label": "8" },
+                  { "label": "9" },
+                  { "label": "0" }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "!" },
+                  { "label": "?" },
+                  { "label": "#" },
+                  { "label": "$" },
+                  { "label": "%" },
+                  { "label": "^" },
+                  { "label": "~" },
+                  { "label": "*" },
+                  { "label": "-" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "strOut": "backspace"
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "'" },
+                  { "label": "\"" },
+                  { "label": "|" },
+                  { "label": ":" },
+                  { "label": ";" },
+                  { "label": "+" },
+                  { "label": "`" },
+                  { "label": "_" },
+                  { "label": "(" },
+                  { "label": ")" }
+                ]
+              },
+              {
+                "keys": [
+                  {
+                    "label": "abc",
+                    "strOut": "UpperLower"
+                  },
+                  { "label": "," },
+                  { "label": "=" },
+                  { "label": "@" },
+                  { "label": "[" },
+                  { "label": "]" },
+                  { "label": "/" },
+                  { "label": "\\" },
+                  { "label": "{" },
+                  { "label": "}" }
+                ]
+              }
+            ]
+          },
+          {
+            "modes": "EmailUpper",
+            "rows": [
+              {
+                "keys": [
+                  { "label": "Q" },
+                  { "label": "W" },
+                  { "label": "E" },
+                  { "label": "R" },
+                  { "label": "T" },
+                  { "label": "Y" },
+                  { "label": "U" },
+                  { "label": "I" },
+                  { "label": "O" },
+                  { "label": "P" }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "A" },
+                  { "label": "S" },
+                  { "label": "D" },
+                  { "label": "F" },
+                  { "label": "G" },
+                  { "label": "H" },
+                  { "label": "J" },
+                  { "label": "K" },
+                  { "label": "L" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "strOut": "backspace"
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "Z" },
+                  { "label": "X" },
+                  { "label": "C" },
+                  { "label": "V" },
+                  { "label": "B" },
+                  { "label": "N" },
+                  { "label": "M" },
+                  { "label": "." },
+                  { "label": "_" },
+                  { "label": "-" }
+                ]
+              },
+              {
+                "keys": [
+                  {
+                    "label": "ABC",
+                    "strOut": "UpperLower",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "123#&%",
+                    "strOut": "NumbersSymbols",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "=" ,
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "@",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": ".com",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "@gmail.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":191
+                  },
+                  {
+                    "label": "@yahoo.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":192
+                  },
+                  {
+                    "label": "@outlook.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":192
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "modes": "EmailLower",
+            "rows": [
+              {
+                "keys": [
+                  { "label": "q" },
+                  { "label": "w" },
+                  { "label": "e" },
+                  { "label": "r" },
+                  { "label": "t" },
+                  { "label": "y" },
+                  { "label": "u" },
+                  { "label": "i" },
+                  { "label": "o" },
+                  { "label": "p" }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "a" },
+                  { "label": "s" },
+                  { "label": "d" },
+                  { "label": "f" },
+                  { "label": "g" },
+                  { "label": "h" },
+                  { "label": "j" },
+                  { "label": "k" },
+                  { "label": "l" },
+                  {
+                    "icon": "theme:DKB_DeleteKeyBitmap",
+                    "focusIcon": "theme:DKB_DeleteKeyFocusBitmap",
+                    "strOut": "backspace"
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  { "label": "z" },
+                  { "label": "x" },
+                  { "label": "c" },
+                  { "label": "v" },
+                  { "label": "b" },
+                  { "label": "n" },
+                  { "label": "m" },
+                  { "label": "." },
+                  { "label": "_" },
+                  { "label": "-" }
+                ]
+              },
+              {
+                "keys": [
+                  {
+                    "label": "ABC",
+                    "strOut": "UpperLower",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "123#&%",
+                    "strOut": "NumbersSymbols",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "=",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "@",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": ".com",
+                    "keyWidthFHD":163,
+                    "keyWidthHD":115
+                  },
+                  {
+                    "label": "@gmail.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":191
+                  },
+                  {
+                    "label": "@yahoo.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":192
+                  },
+                  {
+                    "label": "@outlook.com",
+                    "keyWidthFHD":270,
+                    "keyWidthHD":192
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

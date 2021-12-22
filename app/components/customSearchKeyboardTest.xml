@@ -10,7 +10,7 @@
         <Group id="SearchContainer">
             <Button translation="[409,180]" id="buttonMode" text = "Keyboard Toggle" minWidth = "240"></Button>
             <Poster id="line"/>
-            <CustomAddressKeyboard id="theKeyboard" translation="[70,280]" />
+            <BaseQwertyKeyboard id="theKeyboard" translation="[70,280]" />
         </Group>
     </children>
 
