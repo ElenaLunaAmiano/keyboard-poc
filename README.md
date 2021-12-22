@@ -36,3 +36,14 @@ Developers should upgrade the [legacy keyboards](https://developer.roku.com/docs
 
 - **Localized customer information entry**: Enable customers to enter their personal information in their native language. 
 # keyboard-poc
+
+
+
+TO RUN THE APP
+
+-  In the app directory run: 
+npm install @dazn/kopytko-packager --save-dev
+
+- And then run:
+npm start
+
