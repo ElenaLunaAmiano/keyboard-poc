@@ -41,9 +41,43 @@ Developers should upgrade the [legacy keyboards](https://developer.roku.com/docs
 
 TO RUN THE APP
 
--  In the app directory run: 
+https://github.com/getndazn/kopytko-packager#readme
+https://github.com/getndazn/kopytko-packager
+
+
+On project folder run: 
+npm init to create a  package.json file
+
+Then run: 
 npm install @dazn/kopytko-packager --save-dev
 
-- And then run:
-npm start
+Add to the package.json 
+"start": "node node_modules/@dazn/kopytko-packager/scripts/start.js"
+Inside “scripts”{}
+
+Create .kopytkorc in the root folder with minimal configuration
+{
+  "baseManifest": "manifest.js"
+}
+
+
+Create manifest.js at root level and copy:
+
+const baseManifest = require('@dazn/kopytko-packager/base-manifest.js');
+
+module.exports = {
+  ...baseManifest,
+  title: 'Your app title',
+  mm_icon_focus_hd: 'pkg:/images/icon.png', // it is only an example path
+  mm_icon_focus_sd: 'pkg:/images/icon.png',
+  splash_screen_hd: 'pkg:/images/splash.png',
+  splash_screen_sd: 'pkg:/images/splash.png',
+}
+
+
+
+Run:
+
+Npm start
+
 
